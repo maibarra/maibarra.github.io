@@ -674,19 +674,19 @@
          <div class="row">
 
             <div class="eight columns">
-
                <!-- form -->
-               <form action="http://formspree.io/hola@marcoibarra.com" method="post" id="contactForm" name="contactForm">
+               <form action="//formspree.io/hola@marcoibarra.com" method="post" id="contactForm" name="contactForm">
 					<fieldset>
-
+               <input type="hidden" name="_subject" value="Nuevo contacto de tu sitio!" />
+               <input type="hidden" name="_cc" value="marco.ibarra@outlook.com" />
                   <div>
 						   <label for="contactName">Nombre <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="name">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="_replyto" placeholder="Tu correo">
                   </div>
 
                   <div>
@@ -700,7 +700,7 @@
                   </div>
 
                   <div>
-                     <button class="submit">Enviar</button>
+                     <input type="submit" value="Send">Enviar
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
