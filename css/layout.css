@@ -364,6 +364,11 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: back-end 2s ease;
     -webkit-animation: back-end 2s ease;
 }
+.mas {
+    width: 100%;
+    -moz-animation: back-end 2s ease;
+    -webkit-animation: back-end 2s ease;
+}
 
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
@@ -398,6 +403,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 75%;  }
 }
 
+@-moz-keyframes mas {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 97%;  }
@@ -429,6 +439,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes cli-ter {
   0%   { width: 0px;  }
   100% { width: 75%;  }
+}
+@-webkit-keyframes mas {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
 }
 
 /* ------------------------------------------------------------------ */
