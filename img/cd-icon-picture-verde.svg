@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cd-icon-picture-ultioazul.svg">
+   sodipodi:docname="cd-icon-picture-ultimioverde.svg">
   <metadata
      id="metadata19">
     <rdf:RDF>
@@ -86,7 +86,7 @@
      height="112"
      rx="12"
      id="rect13"
-     style="fill:#00008a;fill-opacity:1" />
+     style="fill:#008000" />
   <rect
      fill="#FFF"
      x="33.28"
@@ -95,5 +95,5 @@
      height="176"
      rx="12"
      id="rect15"
-     style="fill:#00008a;fill-opacity:1" />
+     style="fill:#008000" />
 </svg>

@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cd-icon-picture-ultioazul.svg">
+   sodipodi:docname="trello.svg">
   <metadata
      id="metadata19">
     <rdf:RDF>
@@ -23,7 +23,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +39,9 @@
      inkscape:window-height="874"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="0.13350176"
-     inkscape:cx="-974.02827"
-     inkscape:cy="1284.1295"
+     inkscape:zoom="0.0944"
+     inkscape:cx="31.779661"
+     inkscape:cy="1250"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -65,19 +64,6 @@
          id="stop9" />
     </linearGradient>
   </defs>
-  <g
-     inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="atras">
-    <rect
-       id="rect5284"
-       rx="36.166191"
-       height="233.52733"
-       width="235.32137"
-       y="1.8317243"
-       x="10.265198"
-       style="fill:#ffffff" />
-  </g>
   <rect
      fill="#FFF"
      x="144.64"
@@ -85,8 +71,7 @@
      width="78.08"
      height="112"
      rx="12"
-     id="rect13"
-     style="fill:#00008a;fill-opacity:1" />
+     id="rect13" />
   <rect
      fill="#FFF"
      x="33.28"
@@ -94,6 +79,5 @@
      width="78.08"
      height="176"
      rx="12"
-     id="rect15"
-     style="fill:#00008a;fill-opacity:1" />
+     id="rect15" />
 </svg>
