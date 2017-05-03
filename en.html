@@ -46,6 +46,8 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+   <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
    <!-- Script
    ================================================== -->
@@ -65,8 +67,8 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Mostrar navegación">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Mostrar navegación">Hide navigation</a>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
@@ -123,23 +125,23 @@
             <h2>About me</h2>
 
             <p><i class="fa fa-trophy"></i> Developed and Coordinated award winning websites for public sector.</p>
-
+            <br>
             <p><i class="fa fa-graduation-cap"></i> Experienced scholar in software related subjects.</p>
-
+            <br>
             <p><i class="fa fa-stack-overflow"></i> Experienced independent/freelance software developer.</p>
-
-
+            <br>
+            
             <p><i class="fa fa-globe"></i> Multilingual worker with strong emphasis on focus, efficiency and transparency in communications. (EN, ES, FR)
 </p>
-
+            <br>
             <p><i class="fa fa-trello"></i> Started professionally as a Practitioner of Agile methodologies.</p>
-
+            <br>
             <p><i class="fa fa-user"></i> Tech agnostic, Team-oriented, resource-mindful and delivery-focused vision for project development.</p>
-
+            <br>
             <p><i class="fa fa-tachometer"></i> Focused on keeping a leading-edge and tool-based approach to Productivity, Software Development and Intuitive Design.</p>
-
+            <br>
             <p>Now I'm looking to collaborate and build products with these 3 essential elements:</p>
-
+            <br>
             <center><h2>Usefulness, Growth & Happiness</h2></center>
             </p>
             <p>For more Details:</p>
@@ -149,7 +151,7 @@
 
                <div class="columns download">
                   <p>
-                     <a target="_blank" href="http://bit.ly/1MPSRHW" class="button"><i class="fa fa-download"></i>Download my Resumé</a>
+                     <a target="_blank" href="#portfolio" class="button smoothscroll"><i class="fa fa-download"></i>Get to know my work</a>
                   </p>
                </div>
 
@@ -461,25 +463,20 @@
    <!-- Resume Section
    ================================================== -->
    <section id="resume">
+           <center><h3><span style="border-bottom:3px solid #11ABB0; width: 100%;" >EMPLOYMENT</span></h3></center>
+   </section>      
 
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
+   <!-- Resume Section
+   ================================================== -->
+   <section id="cd-timeline" class="cd-container">
+      <div class="cd-timeline-block">
+         <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+         </div> <!-- cd-timeline-img -->
 
-         <div class="three columns header-col">
-            <h1><span>Employment</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Internet Brands</h3>
-                  <p class="info">Project Manager <span>&bull;</span> <em class="date">January 2016 - Present</em></p>
-
-                  <p>
+         <div class="cd-timeline-content">
+            <h2><p style="font-size: larger; font-weight: bolder;" class="info">Project Manager <span>&bull;</span> <em class="date">Internet Brands</em></p></h2>
+            <p>
                   <i class="fa fa-code-fork"></i> Technical Project Planning, Development, Benchmarking.
                   </p>
 
@@ -494,46 +491,107 @@
                   <p>
                   <i class="fa fa-calendar"></i> Estimations and Scope definitions.
                   </p>
+            <a href="http://internetbrands.com" target="_blank" class="cd-read-more">See more</a>
+            <span class="cd-date">Jan 2016 - Current</span>
+         </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
 
-               </div>
+      <div class="cd-timeline-block">
+         <div class="cd-timeline-img cd-movie">
+            <img src="img/hermosillo.svg" alt="Movie">
+         </div> <!-- cd-timeline-img -->
 
-            </div> <!-- item end -->
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Hermosillo Digital</h3>
-                  <p class="info">Jr. Programmer-Analyst, Sr. Software Developer & Director <span>&bull;</span> <em class="date">December 2009 - September 2015</em></p>
-
-                  <p>
-                  While some believe that What you do/build is the most important thing, I <strong>know</strong> that the most important thing is <strong>Why</strong>
-                  This job offer began with a collaboration in a project to improve citizen reports of infrastructure problems, which led to a constant stream of work in developing software tools to improve Citizen Experience. Many changes, some difficulties, but above all: a clear sense of purpose knowing that my work would improve the ways the people of my city would interact with its government. I started developing web apps and ended up leading successful projects.
+         <div class="cd-timeline-content">
+            <h2><p style="font-size: larger; font-weight: bolder;" class="info">Area director <span>&bull;</span> <em class="date">Hermosillo Digital</em></p></h2>
+            <p>
+                  <i class="fa fa-line-chart"></i> Director for City Hall's Web Development office.
                   </p>
 
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of Sonora</h3>
-                  <p class="info">Teacher/Educator/Scholar <span>&bull;</span> <em class="date">September 2011 - December 2014</em></p>
+                  <p>
+                  <i class="fa fa-users"></i> Managed, Executed and Presented public interest web projects.
+                  </p>
 
                   <p>
-                  I collaborated with my Alma Mater to give a working, updated view of what is like working on the field. Under the leadership and determination of Teacher Sara Loreli Díaz and with the educational guide of Professor Carlos Lizárraga-Celaya, I found a way to implement a reverse engineering process to the process of teaching, that started with getting the students to know the tools firsthand, and then getting through the course load to the foundations of theory that computer science and current methodologies have give us.
+                  <i class="fa fa-search"></i> Support, R&D and issue resolution for Hermosillo City Hall software tools.
                   </p>
-                  <p>Subjects Thaught: <strong>Software Engineering, Database Systems, Business Integration, Web Development, E-Commerce y Management of Information Systems</strong></p>
+            <a href="http://hermosillodigital.com" target="_blank" class="cd-read-more">See more</a>
+            <span class="cd-date">Apr 2010 - Sep 2015</span>
+         </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
 
-               </div>
+      <div class="cd-timeline-block">
+         <div class="cd-timeline-img cd-location">
+            <img src="img/teacher.svg" alt="Picture">
+         </div> <!-- cd-timeline-img -->
 
-            </div> <!-- item end -->
+         <div class="cd-timeline-content">
+            <h2><p style="font-size: larger; font-weight: bolder;" class="info">Teacher/Scholar <span>&bull;</span> <em class="date">University of Sonora</em></p></h2>
+            <p>
+                  <i class="fa fa-graduation-cap"></i> Subjects taught: Software Engineering, Database Systems, Business Development, Web Development, Ecommerce & Management of IT functions.
+                  </p>
 
-         </div> <!-- main-col end -->
+                  <p>
+                  <i class="fa fa-leanpub"></i> Collaboration in restructuring University Curriculum.
+                  </p>
 
-      </div> <!-- End Work -->
-      
+                  <p>
+                  <i class="fa fa-usd"></i> Upgrades to University's Software toolkit to meet industry standards.
+                  </p>
+            <a href="http://www.uson.mx" target="_blank" class="cd-read-more">See more</a>
+            <span class="cd-date">Aug 2011 - Dec 2014</span>
+         </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+      <div class="cd-timeline-block">
+         <div class="cd-timeline-img cd-internship">
+            <img src="img/computer.svg" alt="Location">
+         </div> <!-- cd-timeline-img -->
+
+         <div class="cd-timeline-content">
+            <h2><p style="font-size: larger; font-weight: bolder;" class="info">Internships <span>&bull;</span> <em class="date">CEDES/University of Sonora</em></p></h2>
+            <p>
+                  <i class="fa fa-university"></i> University of Sonora Tech Support
+                  </p>
+
+                  <p>
+                  <i class="fa fa-building"></i> CEDES Tech Support
+                  </p>
+
+                  <p>
+                  <i class="fa fa-medkit"></i> Workstation Maintenance (up to 300 Units at the time)
+                  </p>
+            <a href="http://www.uson.mx" target="_blank" class="cd-read-more">See more</a>
+            <span class="cd-date">Nov 2008 - May 2009</span>
+         </div>  <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+      <div class="cd-timeline-block">
+         <div class="cd-timeline-img cd-freel">
+            <img src="img/cd-icon-picture-freelance.svg" alt="Location">
+         </div> <!-- cd-timeline-img -->
+
+         <div class="cd-timeline-content">
+            <h2>Freelance Projects</h2>
+            <p> If you're looking for logistics and technical collaboration in your next big idea... I do </p>
+            <p>
+                  <i class="fa fa-pied-piper"></i> Web & Native App Development 
+                  </p>
+
+                  <p>
+                  <i class="fa fa-rocket"></i> Prototype development and Product launches
+                  </p>
+
+                  <p>
+                  <i class="fa fa-slideshare"></i> Project consulting, including mentorship & networking
+                  </p>
+            <a href="#contact" class="cd-read-more smoothscroll">Contact Me!</a>
+            <span class="cd-date" style="font-style: italic;">Every now & then</span>
+         </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+       <!-- cd-timeline-block -->
+   </section> <!-- cd-timeline -->
+      <section id="resume">  
       <!-- Education
       ----------------------------------------------- -->
       <div class="row education">
@@ -560,7 +618,7 @@
                </div>
 
             </div> <!-- item end -->
-
+<br>
             <div class="row item">
 
                <div class="twelve columns">
@@ -588,9 +646,9 @@
 
          <div class="nine columns main-col">
 
-            <p>As you can see, I've a sum of unusual experiences, besides having a non-cold-or-brief-conventional (in the tech world) way of telling my story. But rest assured that this is just the tip of the iceberg of my working knowledge of functions and tools:
+            <p>As you can see, I've a sum of unusual experiences, besides having a somewhat unconventional way of telling my story. But rest assured that this is just the tip of the iceberg of my working knowledge of functions and tools:
             </p>
-
+<br>
 				<div class="bars">
 
 				   <ul class="skills">
@@ -630,8 +688,8 @@
 
          <div class="seven columns">
 
-            <h2><a href="http://blog.marcoibarra.com">Want to know what I'm talking about?</a></h2>
-            <p>I have a <a href="http://blog.marcoibarra.com"><span>Blog</span></a> !
+            <h2><a href="http://blog.marcoibarra.com">Let's talk about what's going on!</a></h2>
+            <p>I have a <a href="http://blog.marcoibarra.com"><span>Blog</span></a>, so...
 					Feel <span>free</span> to read and leave something in the <span>comment section</span></span>.
 					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
 
@@ -658,7 +716,7 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Mantras</span></h1>
+               <h1><span>References</span></h1>
 
             </div>
 
@@ -705,7 +763,7 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>CONTACT ME</span></h1>
 
             </div>
 
@@ -836,7 +894,7 @@
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Marco Ibarra 2015</li>
+               <li>&copy; Marco Ibarra <script>document.write(new Date().getFullYear())</script></li>
                <li>Made with <a title="Styleshout" href="https://ghost.org/">Love & Ghost</a></li>
             </ul>
 
@@ -850,7 +908,8 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="js/crono.js"></script> 
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
