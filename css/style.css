@@ -143,6 +143,10 @@ Main components
   margin-left: -12px;
   margin-top: -12px;
 }
+
+.cd-timeline-img.cd-cloud {
+  background: #0fc0db;
+}
 .cd-timeline-img.cd-picture {
   background: #00008A;
 }
