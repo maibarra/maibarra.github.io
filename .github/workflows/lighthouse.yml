@@ -8,7 +8,7 @@ jobs:
     - name: Audit Marco Ibarra Website
       uses: jakejarvis/lighthouse-action@master
       with:
-        url: 'http://maibarra.github.io/'
+        url: 'https://marcoibarra.com/'
     - name: Upload results Artifact
       uses: actions/upload-artifact@master
       with:
