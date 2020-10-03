@@ -1,3 +1,15 @@
-- name: Lighthouse Audit
-  uses: jakejarvis/lighthouse-action@v0.3.2
+name: Lighthouse Audit
+on: push
 
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Audit Marco Ibarra Website
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        github_site: 'http://maibarra.github.io/'
+    - uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
