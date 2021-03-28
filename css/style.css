@@ -150,6 +150,9 @@ Main components
 .cd-timeline-img.cd-picture {
   background: #00008A;
 }
+.cd-timeline-img.cd-certa {
+  background: #4b7af3;
+}
 .cd-timeline-img.cd-movie {
   background: #ff9300;
 }
