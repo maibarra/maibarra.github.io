@@ -144,8 +144,13 @@ Main components
   margin-top: -12px;
 }
 
+.cd-timeline-img.cd-globe {
+  background: #b896ff;
+}
+
 .cd-timeline-img.cd-cloud {
   background: #0fc0db;
+}
 }
 .cd-timeline-img.cd-picture {
   background: #00008A;
